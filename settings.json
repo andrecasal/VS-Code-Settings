@@ -96,7 +96,7 @@
 	"editor.cursorStyle": "line",
 	"editor.cursorSurroundingLines": 5,
 	"editor.cursorWidth": 1,
-	"editor.defaultFormatter": null, //"esbenp.prettier-vscode"
+	"editor.defaultFormatter": null,
 	"editor.detectIndentation": false,
 	"editor.dragAndDrop": false,
 	"editor.emptySelectionClipboard": true,
@@ -114,7 +114,7 @@
 	"editor.formatOnPaste": true,
 	"editor.formatOnSave": true,
 	"editor.formatOnSaveTimeout": 750,
-	"editor.formatOnType": true, // VS Code is not respecting the default formatter with this option because this feature is not implemented yet
+	"editor.formatOnType": true,
 	"editor.glyphMargin": true,
 	"editor.gotoLocation.multiple": "peek",
 	"editor.hideCursorInOverviewRuler": false,
@@ -149,7 +149,7 @@
 	"editor.quickSuggestions": {
 		"comments": false,
 		"other": true,
-		"strings": false,
+		"strings": false
 	},
 	"editor.quickSuggestionsDelay": 10,
 	"editor.renderControlCharacters": true,
@@ -215,7 +215,7 @@
 	"editor.wordWrapColumn": 80,
 	"editor.wrappingIndent": "same",
 	"emmet.excludeLanguages": [
-		"markdown",
+		"markdown"
 	],
 	"emmet.extensionsPath": "",
 	"emmet.includeLanguages": {},
@@ -255,7 +255,7 @@
 		"**/.git": true,
 		"**/.hg": true,
 		"**/.svn": true,
-		"**/CVS": true,
+		"**/CVS": true
 	},
 	"files.hotExit": "onExit",
 	"files.insertFinalNewline": false,
@@ -266,7 +266,7 @@
 	"files.watcherExclude": {
 		"**/.git/objects/**": true,
 		"**/.git/subtree-cache/**": true,
-		"**/node_modules/**": true,
+		"**/node_modules/**": true
 	},
 	"git.allowForcePush": false,
 	"git.alwaysShowStagedChangesResourceGroup": true,
@@ -366,7 +366,7 @@
 	"javascript.suggest.completeFunctionCalls": true,
 	"javascript.suggest.completeJSDocs": true,
 	"javascript.suggest.enabled": true,
-	"javascript.suggest.names": false, // Check video
+	"javascript.suggest.names": false,
 	"javascript.suggest.paths": true,
 	"javascript.suggestionActions.enabled": true,
 	"javascript.updateImportsOnFileMove.enabled": "always",
@@ -435,24 +435,6 @@
 	"php.validate.enable": true,
 	"php.validate.executablePath": null,
 	"php.validate.run": "onType",
-	/* "prettier.arrowParens": "always",
-	"prettier.bracketSpacing": false,
-	"prettier.disableLanguages": [],
-	"prettier.endOfLine": "lf",
-	"prettier.htmlWhitespaceSensitivity": "ignore",
-	"prettier.ignorePath": ".prettierignore",
-	"prettier.jsxBracketSameLine": true,
-	"prettier.jsxSingleQuote": false,
-	"prettier.parser": "babylon",
-	"prettier.printWidth": 999999,
-	"prettier.proseWrap": "never",
-	"prettier.quoteProps": "as-needed",
-	"prettier.requireConfig": false,
-	"prettier.semi": true,
-	"prettier.singleQuote": true,
-	"prettier.tabWidth": 4,
-	"prettier.trailingComma": "es5",
-	"prettier.useTabs": true, */
 	"problems.autoReveal": true,
 	"problems.decorations.enabled": true,
 	"references.preferredLocation": "peek",
@@ -494,7 +476,7 @@
 	"search.collapseResults": "alwaysExpand",
 	"search.exclude": {
 		"**/bower_components": true,
-		"**/node_modules": true,
+		"**/node_modules": true
 	},
 	"search.followSymlinks": true,
 	"search.globalFindClipboard": true,
@@ -666,9 +648,5 @@
 	"zenMode.hideLineNumbers": true,
 	"zenMode.hideStatusBar": true,
 	"zenMode.hideTabs": true,
-	"zenMode.restore": true,
-	"vscode_custom_css.policy": true,
-	"vscode_custom_css.imports": [
-		"file:///users/andrecasal/vs-code-styles.css"
-	]
+	"zenMode.restore": true
 }
