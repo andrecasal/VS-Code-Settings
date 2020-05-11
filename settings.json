@@ -1,4 +1,11 @@
 {
+	"[c]": {
+		"editor.defaultFormatter": "ms-vscode.cpptools"
+	},
+	"[css]": {
+		"editor.suggest.insertMode": "replace",
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
 	"[git-commit]": {
 		"editor.rulers": [
 			72
@@ -7,22 +14,52 @@
 	"[go]": {
 		"editor.insertSpaces": false
 	},
+	"[javascript]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	},
 	"[json]": {
 		"editor.quickSuggestions": {
 			"strings": true
 		}
+	},
+	"[jsonc]": {
+		"editor.quickSuggestions": {
+			"strings": true
+		},
+		"editor.suggest.insertMode": "replace"
 	},
 	"[makefile]": {
 		"editor.insertSpaces": false
 	},
 	"[markdown]": {
 		"editor.quickSuggestions": false,
-		"editor.wordWrap": "on"
+		"editor.suggestOnTriggerCharacters": false,
+		"editor.wordWrap": "on",
+		"editor.defaultFormatter": null,
 	},
 	"[yaml]": {
-		"editor.autoIndent": false,
+		"editor.autoIndent": "keep",
 		"editor.insertSpaces": true,
 		"editor.tabSize": 2
+	},
+	"[handlebars]": {
+		"editor.suggest.insertMode": "replace"
+	},
+	"[html]": {
+		"editor.suggest.insertMode": "replace",
+		"editor.defaultFormatter": "vscode.html-language-features"
+	},
+	"[less]": {
+		"editor.suggest.insertMode": "replace"
+	},
+	"[scss]": {
+		"editor.suggest.insertMode": "replace"
+	},
+	"[search-result]": {
+		"editor.lineNumbers": "off"
+	},
+	"[shellscript]": {
+		"files.eol": "\n"
 	},
 	"breadcrumbs.enabled": true,
 	"breadcrumbs.filePath": "on",
@@ -116,7 +153,7 @@
 		"source.organizeImports": true
 	},
 	"editor.codeActionsOnSaveTimeout": 1000,
-	"editor.codeLens": true,
+	"editor.codeLens": false,
 	"editor.colorDecorators": true,
 	"editor.copyWithSyntaxHighlighting": true,
 	"editor.cursorBlinking": "solid",
@@ -158,7 +195,7 @@
 	"editor.lineHeight": 21,
 	"editor.lineNumbers": "on",
 	"editor.links": true,
-	"editor.matchBrackets": false,
+	"editor.matchBrackets": "",
 	"editor.maxTokenizationLineLength": 20000,
 	"editor.minimap.enabled": true,
 	"editor.minimap.maxColumn": 100,
@@ -172,7 +209,7 @@
 	"editor.multiCursorModifier": "alt",
 	"editor.multiCursorPaste": "spread",
 	"editor.occurrencesHighlight": true,
-	"editor.overviewRulerBorder": false,
+	"editor.overviewRulerBorder": true,
 	"editor.parameterHints.cycle": true,
 	"editor.parameterHints.enabled": true,
 	"editor.quickSuggestions": {
@@ -203,7 +240,7 @@
 	"editor.suggest.showClasses": true,
 	"editor.suggest.showColors": true,
 	"editor.suggest.showConstants": true,
-	"editor.suggest.showConstructors": true, // New setting
+	"editor.suggest.showConstructors": true,
 	"editor.suggest.showCustomcolors": true,
 	"editor.suggest.showEnumMembers": true,
 	"editor.suggest.showEnums": true,
@@ -226,14 +263,14 @@
 	"editor.suggest.showUnits": true,
 	"editor.suggest.showValues": true,
 	"editor.suggest.showVariables": true,
-	"editor.suggest.showWords": true, // This used to be editor.suggest.filteredTypes { "text": true }
+	"editor.suggest.showWords": true,
 	"editor.suggest.snippetsPreventQuickSuggestions": true,
 	"editor.suggestFontSize": 12,
 	"editor.suggestLineHeight": 21,
 	"editor.suggestOnTriggerCharacters": true,
 	"editor.suggestSelection": "first",
 	"editor.tabCompletion": "off",
-	"editor.tabSize": 4,
+	"editor.tabSize": 3,
 	"editor.tokenColorCustomizations": {},
 	"editor.trimAutoWhitespace": false,
 	"editor.useTabStops": true,
@@ -289,9 +326,9 @@
 		"**/CVS": true
 	},
 	"files.hotExit": "onExit",
-	"files.insertFinalNewline": false,
+	"files.insertFinalNewline": true,
 	"files.maxMemoryForLargeFilesMB": 4096,
-	"files.simpleDialog.enable": true,
+	"files.simpleDialog.enable": false,
 	"files.trimFinalNewlines": true,
 	"files.trimTrailingWhitespace": true,
 	"files.watcherExclude": {
@@ -393,7 +430,7 @@
 	"javascript.preferences.importModuleSpecifier": "auto",
 	"javascript.preferences.quoteStyle": "single",
 	"javascript.preferences.renameShorthandProperties": true,
-	"javascript.referencesCodeLens.enabled": true,
+	"javascript.referencesCodeLens.enabled": false,
 	"javascript.suggest.autoImports": true,
 	"javascript.suggest.completeFunctionCalls": true,
 	"javascript.suggest.completeJSDocs": true,
@@ -544,7 +581,6 @@
 	},
 	"search.followSymlinks": true,
 	"search.globalFindClipboard": true,
-	"search.location": "sidebar",
 	"search.maintainFileSearchCache": false,
 	"search.quickOpen.includeHistory": false,
 	"search.quickOpen.includeSymbols": false,
@@ -659,7 +695,6 @@
 	],
 	"vscode_custom_css.policy": true,
 	"window.clickThroughInactive": true,
-	"window.closeWhenEmpty": true,
 	"window.doubleClickIconToClose": false,
 	"window.nativeFullScreen": true,
 	"window.nativeTabs": false,
@@ -674,7 +709,6 @@
 	"window.zoomLevel": 0,
 	"workbench.activityBar.visible": true,
 	"workbench.colorCustomizations": {},
-	"workbench.colorTheme": "Cobalt2",
 	"workbench.commandPalette.history": 50,
 	"workbench.commandPalette.preserveInput": false,
 	"workbench.editor.centeredLayoutAutoResize": true,
@@ -727,4 +761,36 @@
 	"zenMode.hideTabs": true,
 	"zenMode.restore": true,
 	"zenMode.silentNotifications": true,
+	// New settings
+	"java.errors.incompleteClasspath.severity": "ignore",
+	"java.configuration.checkProjectSettingsExclusions": false,
+	"editor.accessibilityPageSize": 10,
+	"editor.gotoLocation.alternativeDeclarationCommand": "editor.action.goToReferences",
+	"editor.gotoLocation.alternativeDefinitionCommand": "editor.action.goToReferences",
+	"editor.gotoLocation.alternativeImplementationCommand": "",
+	"editor.gotoLocation.alternativeReferenceCommand": "",
+	"editor.gotoLocation.alternativeTypeDefinitionCommand": "editor.action.goToReferences",
+	"editor.gotoLocation.multipleDeclarations": "peek",
+	"editor.gotoLocation.multipleDefinitions": "peek",
+	"editor.gotoLocation.multipleImplementations": "peek",
+	"editor.gotoLocation.multipleReferences": "peek",
+	"editor.gotoLocation.multipleTypeDefinitions": "peek",
+	"editor.suggest.insertHighlight": false,
+	"editor.suggest.insertMode": "insert",
+	"editor.tokenColorCustomizationsExperimental": {},
+	"files.participants.timeout": 5000,
+	"explorer.compactFolders": false,
+	"search.enableSearchEditorPreview": false,
+	"search.searchOnType": true,
+	"search.searchOnTypeDebouncePeriod": 300,
+	"debug.showInlineBreakpointCandidates": true,
+	"html.mirrorCursorOnMatchingTag": true,
+	"json.maxItemsComputed": 5000,
+	"javascript.referencesCodeLens.showOnAllFunctions": false,
+	"typescript.referencesCodeLens.showOnAllFunctions": false,
+	"terminal.integrated.minimumContrastRatio": 1,
+	"problems.showCurrentInStatus": false,
+	"remote.downloadExtensionsLocally": false,
+	"C_Cpp.clang_format_style": "{ BasedOnStyle: LLVM, UseTab: Always, IndentWidth: 4, TabWidth: 4, ColumnLimit: 0}",
+	"workbench.colorTheme": "Cobalt2"
 }
