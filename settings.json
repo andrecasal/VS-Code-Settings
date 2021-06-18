@@ -34,5 +34,5 @@
 	"debug.toolBarLocation": "docked",
 	"debug.showBreakpointsInOverviewRuler": true,
 	"terminal.integrated.cursorBlinking": true,
-	"terminal.integrated.cursorStyle": "line",
+	"terminal.integrated.cursorStyle": "line"
 }
