@@ -1,5 +1,7 @@
 # Better default settings for VS Code
 
+_This is part of the [Mastery for VS Code](https://andrecasal.com/courses/mastery-for-vs-code) course._
+
 These are my refined settings for VS Code.
 
 If you don't have the Operator Mono Font with ligatures enabled, you should probably delete these three lines:
