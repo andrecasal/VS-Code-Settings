@@ -8,6 +8,7 @@
 		"source.organizeImports": false
 	},
 	"editor.scrollBeyondLastColumn": 15,
+	"terminal.integrated.scrollback": 10000,
 	"editor.cursorSmoothCaretAnimation": "on",
 	"editor.cursorSurroundingLines": 3,
 	"editor.fontFamily": "OperatorMonoLig-Light, Menlo, Monaco, 'Courier New', monospace",
