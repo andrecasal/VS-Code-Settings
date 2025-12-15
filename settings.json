@@ -36,6 +36,5 @@
 	"debug.showBreakpointsInOverviewRuler": true,
 	"terminal.integrated.cursorBlinking": true,
 	"terminal.integrated.cursorStyle": "line",
-	"C_Cpp.clang_format_style": "{ BasedOnStyle: Chromium, IndentWidth: 3, TabWidth: 3, UseTab: Always, ColumnLimit: 0}",
-	"explorer.compactFolders": false
+	"C_Cpp.clang_format_style": "{ BasedOnStyle: Chromium, IndentWidth: 3, TabWidth: 3, UseTab: Always, ColumnLimit: 0}"
 }
